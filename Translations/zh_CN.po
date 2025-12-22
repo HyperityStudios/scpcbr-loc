@@ -1,0 +1,532 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+# Settings title & info translations
+msgid "[display_mode]"
+msgstr "显示模式"
+
+msgid "[display_mode_info]"
+msgstr ""
+"窗口化 - 游戏在窗口中运行\n"
+"\n"
+"窗口化全屏 - 游戏在无边框的全屏窗口中运行\n"
+"\n"
+"独占全屏 - 游戏独占显示器，其他程序无法在游戏画面上显示悬浮窗等内容"
+
+msgid "[vsync_mode]"
+msgstr "垂直同步模式"
+
+msgid "[vsync_mode_info]"
+msgstr ""
+"将游戏帧率与显示器刷新率同步，以减少画面撕裂\n"
+"\n"
+"禁用 - 不启用垂直同步。画面将以尽可能高的帧率显示，不受显示器刷新率限制\n"
+"\n"
+"优点：降低输入延迟\n"
+"缺点：在低帧率情况下更容易出现画面撕裂\n"
+"\n"
+"启用 - 默认垂直同步模式。画面与显示器刷新率同步，以减少画面撕裂\n"
+"\n"
+"优点：完全消除画面撕裂\n"
+"缺点：游戏需要等待显示器刷新后才能显示画面，会增加输入延迟\n"
+"\n"
+"自适应 - 根据当前帧率动态开启或关闭垂直同步：\n"
+"当帧率低于显示器刷新率时启用垂直同步；\n"
+"当帧率高于刷新率时关闭垂直同步，以降低输入延迟\n"
+"\n"
+"优点：在高帧率下尽量减少输入延迟\n"
+"缺点：帧率波动或模式切换时，可能出现轻微的画面异常或不稳定\n"
+"\n"
+"邮箱模式 - 一种双缓冲实现方式，在可能的情况下显示最新一帧，不限制帧率，并尽量减少画面撕裂\n"
+"\n"
+"优点：仅在显示器刷新时显示画面，大幅减少画面撕裂\n"
+"缺点：相比完全禁用垂直同步，输入延迟略有增加"
+
+msgid "[shadow_quality]"
+msgstr "阴影质量"
+
+msgid "[shadow_quality_info]"
+msgstr ""
+"设置阴影贴图分辨率和阴影过滤质量\n"
+"\n"
+"主要影响 GPU 性能和显存占用"
+
+msgid "[gi_quality]"
+msgstr "全局光照质量"
+
+msgid "[gi_quality_info]"
+msgstr ""
+"设置全局光照的质量\n"
+"\n"
+"主要影响 CPU 性能、GPU 性能以及显存占用"
+
+msgid "[shader_quality]"
+msgstr "着色器质量"
+
+msgid "[shader_quality_info]"
+msgstr ""
+"设置着色器计算精度和细节等级\n"
+"\n"
+"低 - 完整 PBR + 法线细节贴图\n"
+"中 - 深度偏移贴图 + PBR 细节贴图\n"
+"高 - 接触精细视差贴图（CRPM）\n"
+"极高 - 带视差自阴影的 CRPM\n"
+"\n"
+"主要影响系统内存、显存占用以及 GPU 性能"
+
+msgid "[anti_alising]"
+msgstr "抗锯齿"
+
+msgid "[anti_alising_info]"
+msgstr ""
+"FXAA - 快速近似抗锯齿，一种轻量级后处理方法，通过模糊边缘来减少锯齿\n"
+"对 GPU 性能影响可以忽略不计\n"
+"\n"
+"MSAA - 多重采样抗锯齿，通过对边缘进行多次采样来生成更平滑的画面\n"
+"对 GPU 性能有轻微到中等影响\n"
+"\n"
+"TAA - 时间抗锯齿，通过采样当前帧和前一帧来减少锯齿。可显著改善抖动和透明边缘，但在运动时可能产生重影或拖影\n"
+"对 GPU 性能影响较高"
+
+msgid "[3d_scaling]"
+msgstr "3D 分辨率缩放"
+
+msgid "[3d_scaling_info]"
+msgstr ""
+"双线性 - 使用简单的平均算法将分辨率降低至 50%。\n"
+"优点：大幅降低 GPU 负载\n"
+"缺点：画质损失较为明显\n"
+"\n"
+"FSR - 全名 FidelityFX Super Resolution，由 AMD 开发的超分辨率技术\n"
+"\n"
+"性能模式 :: 50% 分辨率 :: 输入：960 x 540，输出：1920 x 1080\n"
+"平衡模式 :: 59% 分辨率 :: 输入：1129 x 635，输出：1920 x 1080\n"
+"质量模式 :: 67% 分辨率 :: 输入：1280 x 720，输出：1920 x 1080\n"
+"超高质量 :: 77% 分辨率 :: 输入：1477 x 831，输出：1920 x 1080"
+
+msgid "[field_of_view]"
+msgstr "视场"
+
+msgid "[field_of_view_info]"
+msgstr "玩家的视场角"
+
+msgid "[reflections]"
+msgstr "反射"
+
+msgid "[reflections_info]"
+msgstr ""
+"屏幕空间反射（SSR）通过重投影在屏幕空间中为光滑表面混合反射效果。由于是屏幕空间效果，动态物体可能出现遮挡伪影\n"
+"\n"
+"主要影响 GPU 性能"
+
+msgid "[ambient_occlusion]"
+msgstr "环境光遮蔽"
+
+msgid "[ambient_occlusion_info]"
+msgstr ""
+"屏幕空间环境光遮蔽（SSAO）通过分析场景中纹理的深度值缓冲来加深角落和缝隙阴影。但是由于是屏幕空间效果，所以说可能会出现遮挡消失伪影\n"
+"\n"
+"主要影响 GPU 性能"
+
+msgid "[indirect_lighting]"
+msgstr "间接光照"
+
+msgid "[indirect_lighting_info]"
+msgstr ""
+"屏幕空间间接光照（SSIL）通过采样 HDR 光照缓冲区在屏幕空间中提供间接光照。此效果容易出现闪烁或异常表现\n"
+"\n"
+"主要影响 GPU 性能"
+
+msgid "[move_forward]"
+msgstr "前进"
+
+msgid "[move_forward_info]"
+msgstr " "
+
+msgid "[move_backward]"
+msgstr "后退"
+
+msgid "[move_backward_info]"
+msgstr " "
+
+msgid "[move_left]"
+msgstr "向左移动"
+
+msgid "[move_left_info]"
+msgstr " "
+
+msgid "[move_rights]"
+msgstr "向右移动"
+
+msgid "[move_rights_info]"
+msgstr " "
+
+msgid "[sprint]"
+msgstr "冲刺"
+
+msgid "[sprint_info]"
+msgstr "冲刺！冲刺！！！"
+
+msgid "[blink]"
+msgstr "眨眼"
+
+msgid "[blink_info]"
+msgstr "用于以不同方式与某些 SCP 进行交互"
+
+msgid "[suppress_blink]"
+msgstr "强行睁眼"
+
+msgid "[suppress_blink_info]"
+msgstr "强行睁开你的眼睛，但会暂时加快眨眼计量条的消耗"
+
+msgid "[crouch]"
+msgstr "下蹲"
+
+msgid "[crouch_info]"
+msgstr " "
+
+msgid "[inventory]"
+msgstr "物品栏"
+
+msgid "[inventory_info]"
+msgstr "打开 / 关闭物品栏"
+
+msgid "[throw]"
+msgstr "投掷"
+
+msgid "[throw_info]"
+msgstr "允许你投掷大多数已装备的物品"
+
+msgid "[utility]"
+msgstr "快捷道具"
+
+msgid "[utility_info]"
+msgstr "从绑定的快捷槽中快速装备道具"
+
+msgid "[primary]"
+msgstr "主要操作"
+
+msgid "[primary_info]"
+msgstr "使用主手装备的道具，或者与环境进行交互"
+
+msgid "[secondary]"
+msgstr "次要操作"
+
+msgid "[secondary_info]"
+msgstr "副手有道具时使用副手交互，否则使用主手交互"
+
+msgid "[mouse_sensitivity]"
+msgstr "鼠标灵敏度"
+
+msgid "[mouse_sensitivity_info]"
+msgstr " "
+
+msgid "[mouse_inversion]"
+msgstr "鼠标反转"
+
+msgid "[mouse_inversion_info]"
+msgstr " "
+
+msgid "[master_volume]"
+msgstr "主音量"
+
+msgid "[master_volume_info]"
+msgstr "全局音量设置"
+
+msgid "[music_volume]"
+msgstr "音乐音量"
+
+msgid "[music_volume_info]"
+msgstr "设置所有背景音乐的音量"
+
+msgid "[dialogue_volume]"
+msgstr "对话音量"
+
+msgid "[dialogue_volume_info]"
+msgstr "设置所有语音的音量"
+
+msgid "[effects_volume]"
+msgstr "音效音量"
+
+msgid "[effects_volume_info]"
+msgstr "设置所有音效的音量"
+
+msgid "[ui_volume]"
+msgstr "界面音量"
+
+msgid "[ui_volume_info]"
+msgstr "设置界面音效音量"
+
+msgid "[epilepsy_friendly]"
+msgstr "光敏性癫痫模式"
+
+msgid "[epilepsy_friendly_info]"
+msgstr "尽量减少强烈和闪烁的光效"
+
+msgid "[camera_shake]"
+msgstr "镜头摇晃强度"
+
+msgid "[camera_shake_info]"
+msgstr "设置镜头摇晃的幅度"
+
+msgid "[text_prompts]"
+msgstr "文字提示"
+
+msgid "[text_prompts_info]"
+msgstr "在游戏中显示物品名称"
+
+msgid "[subtitles]"
+msgstr "字幕"
+
+msgid "[subtitles_info]"
+msgstr " "
+
+# Settings keywords translations
+msgid "[apply]"
+msgstr "应用"
+
+msgid "[save]"
+msgstr "保存"
+
+msgid "[discard]"
+msgstr "放弃"
+
+msgid "[graphics]"
+msgstr "图形"
+
+msgid "[input]"
+msgstr "输入"
+
+msgid "[audio]"
+msgstr "音频"
+
+msgid "[accessibility]"
+msgstr "无障碍"
+
+msgid "[windowed]"
+msgstr "窗口化"
+
+msgid "[fullscreen]"
+msgstr "全屏"
+
+msgid "[exclusive_fullscreen]"
+msgstr "独占全屏"
+
+msgid "[disabled]"
+msgstr "禁用"
+
+msgid "[enabled]"
+msgstr "启用"
+
+msgid "[adaptive]"
+msgstr "自适应"
+
+msgid "[mailbox]"
+msgstr "邮箱模式"
+
+msgid "[potato]"
+msgstr "极低"
+
+msgid "[low]"
+msgstr "低"
+
+msgid "[medium]"
+msgstr "中"
+
+msgid "[high]"
+msgstr "高"
+
+msgid "[very_high]"
+msgstr "很高"
+
+msgid "[ultra]"
+msgstr "极高"
+
+msgid "[fxaa]"
+msgstr "FXAA"
+
+msgid "[fxaa_msaa_2]"
+msgstr "FXAA + MSAA ×2"
+
+msgid "[fxaa_msaa_4]"
+msgstr "FXAA + MSAA ×4"
+
+msgid "[fxaa_msaa_8]"
+msgstr "FXAA + MSAA ×8"
+
+msgid "[fxaa_msaa_8_taa]"
+msgstr "FXAA + MSAA ×8 + TAA"
+
+msgid "[bilinear_half]"
+msgstr "双线性 0.5 倍"
+
+msgid "[fsr_performace]"
+msgstr "FSR - 性能"
+
+msgid "[fsr_balanced]"
+msgstr "FSR - 平衡"
+
+msgid "[fsr_quality]"
+msgstr "FSR - 质量"
+
+msgid "[fsr_ultra_quality]"
+msgstr "FSR - 超高质量"
+
+msgid "[none]"
+msgstr "无"
+
+msgid "[invert_y]"
+msgstr "仅反转 Y 轴"
+
+msgid "[invert_x]"
+msgstr "仅反转 X 轴"
+
+msgid "[inverted]"
+msgstr "完全反转"
+
+msgid "[dialogue_only]"
+msgstr "仅对话"
+
+msgid "[environment_only]"
+msgstr "仅环境音"
+
+msgid "[dialogue_environment]"
+msgstr "对话与环境音"
+
+# Item keywords translations
+msgid "[item_battery]"
+msgstr "电池"
+
+msgid "[item_battery_desc]"
+msgstr "可用于消耗电源的物品，例如手电筒"
+
+msgid "[item_torch]"
+msgstr "手电筒"
+
+msgid "[item_torch_desc]"
+msgstr "基金会标准配发的手电筒，紧急情况下还怪好用的"
+
+msgid "[item_714]"
+msgstr "SCP-714"
+
+msgid "[item_714_desc]"
+msgstr "看起来就是一枚玉制戒指，没有任何显眼的花纹或标记"
+
+msgid "[item_keycard_0]"
+msgstr "访客门禁卡"
+
+msgid "[item_keycard_0_desc]"
+msgstr "允许进入仅限访客的区域"
+
+msgid "[item_keycard_1]"
+msgstr "一级门禁卡"
+
+msgid "[item_keycard_1_desc]"
+msgstr "允许进入 1 级区域"
+
+msgid "[item_keycard_2]"
+msgstr "二级门禁卡"
+
+msgid "[item_keycard_2_desc]"
+msgstr "允许进入 2 级区域"
+
+msgid "[item_keycard_3]"
+msgstr "三级门禁卡"
+
+msgid "[item_keycard_3_desc]"
+msgstr "允许进入 3 级区域"
+
+msgid "[item_keycard_4]"
+msgstr "四级门禁卡"
+
+msgid "[item_keycard_4_desc]"
+msgstr "允许进入 4 级区域"
+
+msgid "[item_keycard_5]"
+msgstr "五级门禁卡"
+
+msgid "[item_keycard_5_desc]"
+msgstr "允许进入 5 级区域"
+
+msgid "[item_keycard_6]"
+msgstr "万事达信用卡"
+
+msgid "[item_keycard_6_desc]"
+msgstr "不错嘛，已经学会用控制台了。是不是还挺为自己骄傲的？"
+
+# Misc keywords translations
+msgid "[containment_breach]"
+msgstr "收容失效"
+
+msgid "[secure_contain_protect]"
+msgstr "控制 · 收容 · 保护"
+
+msgid "[new_game]"
+msgstr "新游戏"
+
+msgid "[load_game]"
+msgstr "读取游戏"
+
+msgid "[sandbox]"
+msgstr "沙盒模式"
+
+msgid "[settings]"
+msgstr "设置"
+
+msgid "[credits]"
+msgstr "制作人员"
+
+msgid "[quit]"
+msgstr "退出"
+
+msgid "[name]"
+msgstr "名称："
+
+msgid "[map_seed]"
+msgstr "地图种子："
+
+msgid "[difficulty]"
+msgstr "难度："
+
+msgid "[permadeath]"
+msgstr "禁用重生："
+
+msgid "[save_anywhere]"
+msgstr "随时保存："
+
+msgid "[aggressive_scps]"
+msgstr "攻击性 SCP："
+
+msgid "[other_factors]"
+msgstr "其他因素："
+
+msgid "[intro_sequence]"
+msgstr "开场动画："
+
+msgid "[safe]"
+msgstr "Safe"
+
+msgid "[euclid]"
+msgstr "Euclid"
+
+msgid "[keter]"
+msgstr "Keter"
+
+msgid "[custom]"
+msgstr "自定义"
+
+msgid "[full]"
+msgstr "完全"
+
+msgid "[reduced]"
+msgstr "削减"
