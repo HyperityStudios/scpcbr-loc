@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: SCP - Containment Breach Reborn\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: \n"
+"Last-Translator: Minirow <Minirow@230x.me>\n"
 "Language-Team: \n"
 "Language: en_AU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 
 msgid "[display_mode]"
 msgstr "Display Mode"
@@ -96,7 +96,7 @@ msgid "[anti_alising_info]"
 msgstr ""
 "FXAA - Fast Approximate Anti-Aliasing, a lightweight post-effect method that "
 "reduces jagged edges by blurring detected edges.\n"
-"Negligable impact on GPU Performance.\n"
+"Negligible impact on GPU Performance.\n"
 "\n"
 "MSAA - Multi-Sampling Anti-Aliasing, samples multiple pixels around detected "
 "edges to construct smoother edges.\n"
@@ -116,18 +116,15 @@ msgid "[3d_scaling_info]"
 msgstr ""
 "Bilinear - Halves the resolution by using a simple averaging method.\n"
 "[Pro: Significantly reduces the GPU load. | Con: More noticeable loss in "
-"q];\n"
-"ality compared to other techniques.]\n"
+"quality compared to other techniques.]\n"
 "\n"
 "FSR - FidelityFX Super Resolution, an upscaling technology developed by "
 "AMD.\n"
 "\n"
 "Performance :: 50% resolution :: Input; 960 x 540. Output; 1920 x 1080.\n"
-"\n"
 "Balanced :: 59% resolution :: Input; 1129 x 635. Output; 1920 x 1080.\n"
-"Q\\\\\\\\\\\\\\']\ality :: 67% resolution :: Input; 1280 x 720. Output; 1920 "
-"x 1080.\n"
-"/'Ultra Quality :: 77% resolution :: Input; 1477 x 831. Output; 1920 x 1080."
+"Quality :: 67% resolution :: Input; 1280 x 720. Output; 1920 x 1080.\n"
+"Ultra Quality :: 77% resolution :: Input; 1477 x 831. Output; 1920 x 1080."
 
 msgid "[field_of_view]"
 msgstr "Field of View"
@@ -317,7 +314,77 @@ msgid "[subtitles]"
 msgstr "Subtitles"
 
 msgid "[subtitles_info]"
-msgstr " "
+msgstr ""
+" Subtitles are not implemented yet. This option currently does nothing."
+
+msgid "[scanlines]"
+msgstr "Scanlines"
+
+msgid "[scanlines_info]"
+msgstr "Controls the strength of the scanline overlay in menus."
+
+# Item keywords translations
+msgid "[item_battery]"
+msgstr "Battery"
+
+msgid "[item_battery_desc]"
+msgstr "Can be applied to powered items, such as torches."
+
+msgid "[item_torch]"
+msgstr "Torch"
+
+msgid "[item_torch_desc]"
+msgstr "A standard Foundation issued torch for use in emergencies."
+
+msgid "[item_714]"
+msgstr "SCP-714"
+
+msgid "[item_714_desc]"
+msgstr "It seems to be a jade ring with no distinguishing patterns or marks."
+
+msgid "[item_keycard_0]"
+msgstr "Guest Keycard"
+
+msgid "[item_keycard_0_desc]"
+msgstr "Grants access to guest-only areas."
+
+msgid "[item_keycard_1]"
+msgstr "Basic Access Keycard"
+
+msgid "[item_keycard_1_desc]"
+msgstr "Grants access to level 1 areas."
+
+msgid "[item_keycard_2]"
+msgstr "Low Security Keycard"
+
+msgid "[item_keycard_2_desc]"
+msgstr "Grants access to level 2 areas."
+
+msgid "[item_keycard_3]"
+msgstr "High Security Keycard"
+
+msgid "[item_keycard_3_desc]"
+msgstr "Grants access to level 3 areas."
+
+msgid "[item_keycard_4]"
+msgstr "Zone Access Keycard"
+
+msgid "[item_keycard_4_desc]"
+msgstr "Grants access to level 4 areas."
+
+msgid "[item_keycard_5]"
+msgstr "Site Access Keycard"
+
+msgid "[item_keycard_5_desc]"
+msgstr "Grants access to level 5 areas."
+
+msgid "[item_keycard_6]"
+msgstr "Override Keycard"
+
+msgid "[item_keycard_6_desc]"
+msgstr ""
+"Good job learning how to use the console, buddy. Bet you feel really proud "
+"of that one, huh?"
 
 msgid "[apply]"
 msgstr "Apply"
@@ -430,69 +497,6 @@ msgstr "Environment Only"
 msgid "[dialogue_environment]"
 msgstr "Dialogue & Environment"
 
-# Item keywords translations
-msgid "[item_battery]"
-msgstr "Battery"
-
-msgid "[item_battery_desc]"
-msgstr "Can be applied to powered items, such as torches."
-
-msgid "[item_torch]"
-msgstr "Torch"
-
-msgid "[item_torch_desc]"
-msgstr "A standard Foundation issued torch for use in emergencies."
-
-msgid "[item_714]"
-msgstr "SCP-714"
-
-msgid "[item_714_desc]"
-msgstr "It seems to be a jade ring with no distinguishing patterns or marks."
-
-msgid "[item_keycard_0]"
-msgstr "Guest Keycard"
-
-msgid "[item_keycard_0_desc]"
-msgstr "Grants access to guest-only areas."
-
-msgid "[item_keycard_1]"
-msgstr "Basic Access Keycard"
-
-msgid "[item_keycard_1_desc]"
-msgstr "Grants access to level 1 areas."
-
-msgid "[item_keycard_2]"
-msgstr "Low Security Keycard"
-
-msgid "[item_keycard_2_desc]"
-msgstr "Grants access to level 2 areas."
-
-msgid "[item_keycard_3]"
-msgstr "High Security Keycard"
-
-msgid "[item_keycard_3_desc]"
-msgstr "Grants access to level 3 areas."
-
-msgid "[item_keycard_4]"
-msgstr "Zone Access Keycard"
-
-msgid "[item_keycard_4_desc]"
-msgstr "Grants access to level 4 areas."
-
-msgid "[item_keycard_5]"
-msgstr "Site Access Keycard"
-
-msgid "[item_keycard_5_desc]"
-msgstr "Grants access to level 5 areas."
-
-msgid "[item_keycard_6]"
-msgstr "Override Keycard"
-
-msgid "[item_keycard_6_desc]"
-msgstr ""
-"Good job learning how to use the console, buddy. Bet you feel really proud "
-"of that one, huh?"
-
 # Misc keywords translations
 msgid "[containment_breach]"
 msgstr "CONTAINMENT BREACH"
@@ -559,3 +563,164 @@ msgstr "Full"
 
 msgid "[reduced]"
 msgstr "Reduced"
+
+msgid "[appolyon]"
+msgstr "Appolyon"
+
+msgid "[explained]"
+msgstr "Explained"
+
+msgid "[joke]"
+msgstr "Joke"
+
+msgid "[neutralised]"
+msgstr "Neutralised"
+
+msgid "[thaumiel]"
+msgstr "Thaumiel"
+
+msgid "[lock]"
+msgstr "Lock"
+
+msgid "[locked]"
+msgstr "Locked"
+
+msgid "[lockdown]"
+msgstr "Lockdown"
+
+msgid "[unlock]"
+msgstr "Unlock"
+
+msgid "[unlocked]"
+msgstr "Unlocked"
+
+# Misc keywords translations
+msgid "[contain]"
+msgstr "contain"
+
+# Misc keywords translations
+msgid "[contained]"
+msgstr "contained"
+
+# Misc keywords translations
+msgid "[uncontained]"
+msgstr "uncontained"
+
+msgid "[checkpoint_status]"
+msgstr "Checkpoint Status"
+
+msgid "[checkpoint]"
+msgstr "checkpoint"
+
+msgid "[gate]"
+msgstr "Gate"
+
+msgid "[door]"
+msgstr "door"
+
+msgid "[site_status]"
+msgstr "Site Status"
+
+msgid "[status]"
+msgstr "status"
+
+msgid "[failed]"
+msgstr "Failed"
+
+msgid "[load_press_to_continue]"
+msgstr "> PRESS ANY KEY TO CONTINUE"
+
+msgid "[load_facility_ready]"
+msgstr "Facility is ready!"
+
+msgid "[load_facility_catchup]"
+msgstr "Allowing facility to catch up..."
+
+msgid "[load_nodes_ready]"
+msgstr "Nodes are ready. finalizing..."
+
+msgid "[load_scene_loaded]"
+msgstr "Scene loaded, beginning instantiation..."
+
+msgid "[load_loading]"
+msgstr "Loading"
+
+msgid "[load_now_loading]"
+msgstr "Now loading"
+
+msgid "[true]"
+msgstr "true"
+
+msgid "[false]"
+msgstr "false"
+
+msgid "[dismiss]"
+msgstr "Dismiss"
+
+# Documents
+msgid "[doc_placeholder_header]"
+msgstr ""
+"DAPPER - STYPE\n"
+"CRINCH CRUNCH"
+
+msgid "[doc_placeholder_body]"
+msgstr ""
+"Special Containment Procedures:[color=7C7C7C] Item SCP-173 is to be kept in "
+"a locked container at all times. When personnel must enter SCP-173's "
+"container, no fewer than 3 may enter at any time and the door is to be "
+"relocked behind them. At all times, two persons must maintain direct eye "
+"contact with SCP-173 until all personnel have vacated and relocked the "
+"container.[/color]\n"
+"\n"
+"Description:[color=7C7C7C] Moved to Site-19 1993. Origin is as of yet "
+"unknown. It is constructed from concrete and rebar with traces of Krylon "
+"brand spray paint. SCP-173 is animate and extremely hostile. The object "
+"cannot move while within a direct line of sight. Line of sight must not be "
+"broken at any time with SCP-173. Personnel assigned to enter container are "
+"instructed to alert one another before blinking. Object is reported to "
+"attack by snapping the neck at the base of the skull, or by strangulation. "
+"In the event of an attack, personnel are to observe Class 4 hazardous object "
+"containment procedures.\n"
+"\n"
+"Personnel report sounds of scraping stone originating from within the "
+"container when no one is present inside. This is considered normal, and any "
+"change in this behaviour should be reported to the acting HMCL supervisor on "
+"duty.\n"
+"\n"
+"The reddish brown substance on the floor is a combination of faeces and "
+"blood. Origin of these materials is unknown. The enclosure must be cleaned "
+"on a bi-weekly basis.[/color]"
+
+msgid "[SCP]"
+msgstr "SCP"
+
+msgid "[012]"
+msgstr "012"
+
+msgid "[173]"
+msgstr "173"
+
+msgid "[1074]"
+msgstr "1074"
+
+msgid "[1123]"
+msgstr "1123"
+
+# Other
+msgid "[012_item_in_safe]"
+msgstr "item in safe"
+
+msgid "[012_safe_secured]"
+msgstr "safe secured"
+
+msgid "[012_safe_raised]"
+msgstr "safe raised"
+
+msgid "[warning_unsaved_changes]"
+msgstr ""
+"You have unsaved changes.\n"
+"Closing the settings menu without saving will discard the changes and reload "
+"previous settings upon loading a level."
+
+msgid "[notice_unsaved_changes]"
+msgstr "NOTICE - UNSAVED CHANGES"
